@@ -1,0 +1,55 @@
+<!-- <mat-toolbar *ngIf="data.mobileType === 'android'" color="primary" class="android-prompt">  -->
+<div *ngIf="data.mobileType === 'android'" style="display: flex;justify-content: space-between;padding: 8px 16px; border-bottom: 1px solid #b9b5b5;">
+  <div style="display: flex;">
+    <img src="assets/gd-logo.png" height="35" style="margin-right:10px;margin-top: 5px;" />
+    <div>
+      <h6 style="font-size: 17px;margin: 0 !important;font-weight: 600;" class="mb-0">GlassDirect</h6>
+      <h6 style="font-size: 14px;margin: 0 !important;line-height: 22px;" class="MB-0">glassdirect.saint-gobain.com</h6>
+    </div>
+  </div>
+  <div>
+    <button
+      style="background-color: #14a2da;padding: 5px 15px; border-radius: 12px;border: none;color: #ffffff;margin: 6px 0px;" (click)="installPwa()">Install</button>
+  </div>
+
+</div>
+<div *ngIf="data.mobileType === 'android'" style="margin: 10px 0px 0px 0px;padding: 8px 16px 0px 16px;">
+  <p>
+GlassDirect is the single digital touchpoint for customers to place & track their orders. Also, customers can access their invoices, credit notes & Ledger copies.
+
+</p>
+</div>
+<!-- <div style="display: flex;padding: 8px 16px 0px;">
+  <div style="width: 200px;padding-right: 10px;">
+    <img src="../../assets/img1.png" alt="" style="max-width:100% ;">
+  </div>
+  <div style="width: 200px;">
+    <img src="../../assets/img2.png" alt="" style="max-width:100% ;">
+  </div>
+  <div style="width: 200px;">
+    <img src="../../assets/img3.png" alt="" style="max-width:100% ;">
+  </div>
+
+</div> -->
+<div *ngIf="data.mobileType === 'android'" style="display: block;overflow-x: scroll;overflow-y: hidden;width: 96%;margin-left: 16px;" >
+  <div style="display: inline-flex;">
+    <img src="assets/img1.png" alt="" style="max-width:50% ;padding-right: 10px;">
+    <img src="assets/img2.png" alt="" style="max-width:50% ;padding-right: 10px;">
+    <img src="assets/img3.png" alt="" style="max-width:50% ;">
+  </div>
+</div>
+<!-- </mat-toolbar> -->
+
+<div *ngIf="data.mobileType === 'ios'" class="ios-prompt">
+  <button class="close-ios-inv" mat-button color="primary" (click)="close()">
+    <mat-icon>close</mat-icon>
+  </button>
+  <div>To install this app on your device tap the Menu button and then 'Add to Home screen' button</div>
+  <div><img src="./assets/ios-menu-btn.png">
+    <mat-icon>navigate_next</mat-icon> <img src="./assets/ios-add-btn.png">
+  </div>
+</div>
+<p>IOS : {{PlatformIos}}</p>
+<p>Android : {{PlatformAndroid}}</p>
+<p>Platform : {{Platform}}</p>
+
