@@ -1,0 +1,91 @@
+{
+  "configVersion": 1,
+  "timestamp": 1660208372537,
+  "index": "https://surya319.github.io/A2H1/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://surya319.github.io/A2H1/favicon.ico",
+        "https://surya319.github.io/A2H1/index.html",
+        "https://surya319.github.io/A2H1/main.84ac4fb4ec72dbca.js",
+        "https://surya319.github.io/A2H1/manifest.webmanifest",
+        "https://surya319.github.io/A2H1/polyfills.c35e1ea3592b3db4.js",
+        "https://surya319.github.io/A2H1/runtime.dc18c0e50bb37457.js",
+        "https://surya319.github.io/A2H1/styles.620fcae53f29b962.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://surya319.github.io/A2H1/assets/gd-logo.png",
+        "https://surya319.github.io/A2H1/assets/gd-logo.zip",
+        "https://surya319.github.io/A2H1/assets/icons/icon-128x128.png",
+        "https://surya319.github.io/A2H1/assets/icons/icon-144x144.png",
+        "https://surya319.github.io/A2H1/assets/icons/icon-152x152.png",
+        "https://surya319.github.io/A2H1/assets/icons/icon-192x192.png",
+        "https://surya319.github.io/A2H1/assets/icons/icon-384x384.png",
+        "https://surya319.github.io/A2H1/assets/icons/icon-512x512.png",
+        "https://surya319.github.io/A2H1/assets/icons/icon-72x72.png",
+        "https://surya319.github.io/A2H1/assets/icons/icon-96x96.png",
+        "https://surya319.github.io/A2H1/assets/img1.png",
+        "https://surya319.github.io/A2H1/assets/img2.png",
+        "https://surya319.github.io/A2H1/assets/img3.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://surya319.github.io/A2H1/assets/gd-logo.png": "130e69835b4059e8d251659cac3e367ce5cc3ab5",
+    "https://surya319.github.io/A2H1/assets/gd-logo.zip": "d27186364bdf49c1508c029ee0a8862e98f09f1f",
+    "https://surya319.github.io/A2H1/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://surya319.github.io/A2H1/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://surya319.github.io/A2H1/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://surya319.github.io/A2H1/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://surya319.github.io/A2H1/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://surya319.github.io/A2H1/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://surya319.github.io/A2H1/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://surya319.github.io/A2H1/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://surya319.github.io/A2H1/assets/img1.png": "680157139a91aaf94436369dd917c4ef6c63ee2b",
+    "https://surya319.github.io/A2H1/assets/img2.png": "3421c0507f1714ca6f4db2bce2fe43c3db49e87e",
+    "https://surya319.github.io/A2H1/assets/img3.png": "a991ce6a4d079fa51de041bac913dc401e0d6c8c",
+    "https://surya319.github.io/A2H1/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://surya319.github.io/A2H1/index.html": "efd3219ea1db021d9ae15d53d0d3b58e22fb20bf",
+    "https://surya319.github.io/A2H1/main.84ac4fb4ec72dbca.js": "62aaeb9bc360bd43cff2a98016ad4b044b446b2b",
+    "https://surya319.github.io/A2H1/manifest.webmanifest": "d3e4dda71df1799f083552a404fcbd5148703975",
+    "https://surya319.github.io/A2H1/polyfills.c35e1ea3592b3db4.js": "8ef1c94abef39645391b60832caf5ec9a5c8ee69",
+    "https://surya319.github.io/A2H1/runtime.dc18c0e50bb37457.js": "ecef5629fbd0999dab9b973967252d2a1cef7e00",
+    "https://surya319.github.io/A2H1/styles.620fcae53f29b962.css": "d6647874257f1fd40b4520e99a42908ead5f287b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
